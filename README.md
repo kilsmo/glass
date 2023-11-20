@@ -14,7 +14,7 @@ Some possible components:
 
 * Box (The base class component)
 * CBox (content box)
-* PBox (parent box, has children, layouts children, animates children, handles drag&drop for children)
+* PBox (parent box, has children, layouts children, animates children, handles drag&drop for children, handles child events)
 * XBox (A PBox where children are layered inside a row)
 * YBox (A PBox where children are layered inside a column)
 * SBox (A switch box, that switches between different "pages")
