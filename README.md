@@ -12,10 +12,10 @@ Working on mutations instead of state/props is easier when trying to create anim
 
 Some possible components:
 
-Box (The base class component)
-CBox (content box)
-PBox (parent box, has children, layouts children, animates children, handles drag&drop for children)
-XBox (A PBox where children are layered inside a row)
-YBox (A PBox where children are layered inside a column)
-SBox (A switch box, that switches between different "pages")
-FBox (A flex box, a box that will stretch to use all unused space in a PBox)
+* Box (The base class component)
+* CBox (content box)
+* PBox (parent box, has children, layouts children, animates children, handles drag&drop for children)
+* XBox (A PBox where children are layered inside a row)
+* YBox (A PBox where children are layered inside a column)
+* SBox (A switch box, that switches between different "pages")
+* FBox (A flex box, a box that will stretch to use all unused space in a PBox)
