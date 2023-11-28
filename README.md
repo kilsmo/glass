@@ -10,12 +10,5 @@ How is Glass different? One thing is that Glass does not use or need a virtual D
 
 Working on mutations instead of state/props is easier when trying to create animations, and doing drag & drop. I find the idea interesting enough to explore, I have been a huge fan of state renderers, but shifting focus to mutations could be a good base for web applications too.
 
-Some possible components:
+I plan to create this framework bit by bit, trying to solve one small problem at a time by implementing enough to support a specific example, but not adding more than is needed. The goal is to avoid over-engineering, and hopefully reach a well-designed framework in the end of the process.
 
-* Box (The base class component)
-* CBox (content box)
-* PBox (parent box, has children, layouts children, animates children, handles drag&drop for children, handles child events)
-* XBox (A PBox where children are layered inside a row)
-* YBox (A PBox where children are layered inside a column)
-* SBox (A switch box, that switches between different "pages")
-* FBox (A flex box, a box that will stretch to use all unused space in a PBox)
